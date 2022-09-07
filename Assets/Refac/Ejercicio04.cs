@@ -9,9 +9,9 @@ public class Ejercicio04 : MonoBehaviour
     {
         for (int i = 0; i < enemigos.Length; i++)
         {
-            if (enemigos[i].Equals("Araña"))
+            if (enemigos[i].Equals("AraÃ±a"))
             {
-                return "Araña";
+                return "AraÃ±a";
             }
             if (enemigos[i].Equals("Lobo"))
             {

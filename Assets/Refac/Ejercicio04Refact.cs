@@ -9,18 +9,7 @@ public class Ejercicio04Refact : MonoBehaviour
     {
         for (int i = 0; i < enemigos.Length; i++)
         {
-            if (enemigos[i].Equals("Araña"))
-            {
-                return "Araña";
-            }
-            if (enemigos[i].Equals("Lobo"))
-            {
-                return "Lobo";
-            }
-            if (enemigos[i].Equals("Orco"))
-            {
-                return "Orco";
-            }
+          return enemigos[i];
         }
         return String.Empty;
     }
